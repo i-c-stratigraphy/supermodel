@@ -152,8 +152,10 @@ gut:chronostratigraphic_unit
 
 gut:geologic_unit
     a owl:Class ;
+    rdfs:isDefinedBy <http://resource.geosciml.org/classifierscheme/cgi/2016.01/geologicunittype> ;
     schema:citation "http://resource.geosciml.org/classifierscheme/cgi/2016.01/geologicunittype"^^xsd:anyURI ;
     schema:name "Geologic Unit" ;
+    schema:description "This is the root concept for the Geologic Unit Type, type hierarchy." ;
 .
 
 :1.0

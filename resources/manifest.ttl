@@ -11,19 +11,19 @@ PREFIX schema: <https://schema.org/>
             prof:hasArtifact "catalogue.ttl" ;
             prof:hasRole mrr:CatalogueData ;
             schema:name "Catalogue Definition" ;
-            # dcterms:conformsTo "validators/bcp.ttl" ;
+            dcterms:conformsTo <https://linked.data.gov.au/def/bcp/validator> ;
         ] ,
         [
             prof:hasArtifact "models/*.ttl" ; ;
             prof:hasRole mrr:ResourceData ;
             schema:name "Models" ;
-            dcterms:conformsTo "validators/ontpub.ttl" ;
+            dcterms:conformsTo <https://linked.data.gov.au/def/ontpub/validator> ;
         ] ,
         [
             prof:hasArtifact "vocabularies/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:name "Vocabularies" ;
-            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub> ;
+            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
         ] ,
         [
             prof:hasArtifact "background/*.ttl" ;

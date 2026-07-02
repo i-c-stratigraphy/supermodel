@@ -14,10 +14,7 @@ PREFIX schema: <https://schema.org/>
             # dcterms:conformsTo "validators/bcp.ttl" ;
         ] ,
         [
-            prof:hasArtifact
-                # "models/*.ttl" ;
-                "models/gssp.ttl" ,
-                "models/strat.ttl" ;
+            prof:hasArtifact "models/*.ttl" ; ;
             prof:hasRole mrr:ResourceData ;
             schema:name "Models" ;
             dcterms:conformsTo "validators/ontpub.ttl" ;

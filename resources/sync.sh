@@ -1,0 +1,1 @@
+pm sync manifest.ttl http://localhost:7200/repositories/ics True False True False

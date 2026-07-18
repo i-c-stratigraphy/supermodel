@@ -1,3 +1,4 @@
+PREFIX cat: <https://data.stratigraphy.org/data/supermodel>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX role: <https://linked.data.gov.au/def/supermodel/roles/>
@@ -5,72 +6,78 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://resource.geosciml.org/catalogue/ics-supermodel>
+cat:
     a schema:DataCatalog ;
     skos:historyNote "Created for the Data Chart and GSSPs DB release, late 2025" ;
     schema:codeRepository "https://github.com/i-c-stratigraphy/chart"^^xsd:anyURI ;
     schema:creator <https://orcid.org/0000-0002-8742-7730> ;
     schema:dateCreated "2025-12-01"^^xsd:date ;
-    schema:dateModified "2025-12-02"^^xsd:date ;
+    schema:dateModified "2026-07-18"^^xsd:date ;
     schema:dateIssued "2026-01-01"^^xsd:date ;
     schema:description """The catalogue of all ICS Supermodel elements""" ;
     schema:hasPart
-        <http://resource.geosciml.org/vocabulary/timescale/gts2020> ,
-        # <http://resource.geosciml.org/classifier/ics/ischart> ,
-        <http://resource.geosciml.org/ontology/gssp> ,
-        <http://resource.geosciml.org/ontology/timescale/gts> ,
-        <http://resource.geosciml.org/ontology/stratigraphy> ,
-        <http://resource.geosciml.org/ontology/ics-visual-chart> ;
+        <https://data.stratigraphy.org/def/chart> ,
+        <https://data.stratigraphy.org/data/gssps> ,
+        <https://data.stratigraphy.org/data/gts> ,
+        <https://data.stratigraphy.org/def/vis> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "ICS Supermodel Catalogue" ;
     schema:publisher <https://stratigraphy.org> ;
     schema:version "1" ;
 .
 
-<http://resource.geosciml.org/vocabulary/timescale/gts2020>
+<https://data.stratigraphy.org/def/chart>
     dcat:qualifiedRelation [
         a dcat:Relationship ;
-        dcterms:relation <http://resource.geosciml.org/catalogue/ics-supermodel> ;
+        dcterms:relation cat: ;
         dcat:hadRole role:foreground-dataset ;
     ] ;
 .
 
-<http://resource.geosciml.org/classifier/ics/ischart>
+<https://data.stratigraphy.org/data/gssps>
     dcat:qualifiedRelation [
         a dcat:Relationship ;
-        dcterms:relation <http://resource.geosciml.org/catalogue/ics-supermodel> ;
+        dcterms:relation cat: ;
         dcat:hadRole role:foreground-dataset ;
     ] ;
 .
 
-<http://resource.geosciml.org/ontology/gssp>
+<https://data.stratigraphy.org/data/gts>
     dcat:qualifiedRelation [
         a dcat:Relationship ;
-        dcterms:relation <http://resource.geosciml.org/catalogue/ics-supermodel> ;
-        dcat:hadRole role:foreground-model ;
+        dcterms:relation cat: ;
+        dcat:hadRole role:foreground-dataset ;
     ] ;
 .
 
-<http://resource.geosciml.org/ontology/timescale/gts>
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-        dcterms:relation <http://resource.geosciml.org/catalogue/ics-supermodel> ;
-        dcat:hadRole role:foreground-model ;
-    ] ;
-.
+# <http://resource.geosciml.org/ontology/timescale/gts>
+#    dcat:qualifiedRelation [
+#        a dcat:Relationship ;
+#        dcterms:relation cat: ;
+#        dcat:hadRole role:foreground-model ;
+#    ] ;
+# .
 
-<http://resource.geosciml.org/ontology/stratigraphy>
-    dcat:qualifiedRelation [
-        a dcat:Relationship ;
-        dcterms:relation <http://resource.geosciml.org/catalogue/ics-supermodel> ;
-        dcat:hadRole role:foreground-model ;
-    ] ;
-.
+# <https://data.stratigraphy.org/def/gssp>
+#     dcat:qualifiedRelation [
+#         a dcat:Relationship ;
+#         dcterms:relation cat: ;
+#         dcat:hadRole role:foreground-model ;
+#     ] ;
+# .
 
-<http://resource.geosciml.org/ontology/ics-visual-chart>
+# <https://data.stratigraphy.org/def/strat>
+#     dcat:qualifiedRelation [
+#         a dcat:Relationship ;
+#         dcterms:relation cat: ;
+#         dcat:hadRole role:foreground-model ;
+#     ] ;
+# .
+
+<https://data.stratigraphy.org/def/vis>
     dcat:qualifiedRelation [
         a dcat:Relationship ;
-        dcterms:relation <http://resource.geosciml.org/catalogue/ics-supermodel> ;
+        dcterms:relation cat: ;
         dcat:hadRole role:vocabulary ;
     ] ;
 .

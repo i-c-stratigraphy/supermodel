@@ -3,9 +3,11 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX time: <http://www.w3.org/2006/time#>
@@ -23,7 +25,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 dcterms:conformsTo
     schema:description "An established standard to which the described resource conforms."@en ;
-    schema:name "Conforms To"@en ;
+    schema:name
+        "Conforms To" ,
+        "Conforms To"@en ;
 .
 
 dcterms:contributor
@@ -38,6 +42,10 @@ dcterms:creator
     schema:name "Creator" ;
 .
 
+dcterms:isReplacedBy
+    schema:name "Is Replaced By" ;
+.
+
 dcterms:license
     schema:name "License" ;
 .
@@ -46,9 +54,17 @@ dcterms:modified
     schema:name "Date Modified" ;
 .
 
+dcterms:publisher
+    schema:name "Publisher" ;
+.
+
 dcterms:relation
     schema:description "A related resource."@en ;
     schema:name "Relation"@en ;
+.
+
+dcterms:replaces
+    schema:name "Replaces" ;
 .
 
 dcterms:rights
@@ -83,8 +99,28 @@ vann:preferredNamespaceUri
     schema:name "Geological Timescale (2020)"@en ;
 .
 
+geo:Geometry
+    schema:name "Geometry" ;
+.
+
+geo:asWKT
+    schema:name "as WKT" ;
+.
+
+geo:hasGeometry
+    schema:name "has geometry" ;
+.
+
 geo:sfWithin
     schema:name "within" ;
+.
+
+rdf:Bag
+    schema:name "Bag" ;
+.
+
+rdf:List
+    schema:name "List" ;
 .
 
 rdf:first
@@ -200,8 +236,16 @@ owl:versionIRI
     schema:name "version IRI" ;
 .
 
+owl:versionInfo
+    schema:name "version Info" ;
+.
+
 owl:withRestrictions
     schema:name "with restrictions" ;
+.
+
+skos:Collection
+    schema:name "Collection" ;
 .
 
 skos:Concept
@@ -211,7 +255,13 @@ skos:Concept
 
 skos:ConceptScheme
     schema:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en ;
-    schema:name "Concept Scheme"@en ;
+    schema:name
+        "Concept Scheme" ,
+        "Concept Scheme"@en ;
+.
+
+skos:broader
+    schema:name "has broader" ;
 .
 
 skos:changeNote
@@ -229,30 +279,50 @@ skos:example
 
 skos:hasTopConcept
     schema:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en ;
-    schema:name "has top concept"@en ;
+    schema:name
+        "has top concept" ,
+        "has top concept"@en ;
 .
 
 skos:historyNote
     schema:description "A note about the past state/use/meaning of a concept"@en ;
-    schema:name "history note"@en ;
+    schema:name
+        "history note" ,
+        "history note"@en ;
 .
 
 skos:inScheme
     schema:description "Relates a resource (for example a concept) to a concept scheme in which it is included"@en ;
-    schema:name "is in scheme"@en ;
+    schema:name
+        "is in scheme" ,
+        "is in scheme"@en ;
 .
 
 skos:member
     schema:name "has member" ;
 .
 
+skos:memberList
+    schema:name "has member list" ;
+.
+
+skos:narrower
+    schema:name "has narrower" ;
+.
+
 skos:notation
     schema:name "notation" ;
 .
 
+skos:note
+    schema:name "note" ;
+.
+
 skos:prefLabel
     schema:description "The preferred lexical label for a resource, in a given language"@en ;
-    schema:name "preferred label"@en ;
+    schema:name
+        "preferred label" ,
+        "preferred label"@en ;
 .
 
 skos:scopeNote
@@ -261,7 +331,13 @@ skos:scopeNote
 
 skos:topConceptOf
     schema:description "Relates a concept to the concept scheme that it is a top level concept of"@en ;
-    schema:name "is top concept in scheme"@en ;
+    schema:name
+        "is top concept in scheme" ,
+        "is top concept in scheme"@en ;
+.
+
+time:TRS
+    schema:name "Temporal Reference System" ;
 .
 
 time:TemporalDuration
@@ -272,20 +348,60 @@ time:TemporalPosition
     schema:name "Temporal position" ;
 .
 
+time:hasBeginning
+    schema:name "has beginning" ;
+.
+
+time:hasEnd
+    schema:name "has end" ;
+.
+
+time:inTemporalPosition
+    schema:name "Temporal position" ;
+.
+
+time:inXSDDate
+    schema:name "in XSD date" ;
+.
+
 time:intervalContains
     schema:name "interval contains" ;
+.
+
+time:intervalDuring
+    schema:name "interval during" ;
+.
+
+time:intervalEquals
+    schema:name "interval equals" ;
 .
 
 time:intervalFinishedBy
     schema:name "interval finished by" ;
 .
 
+time:intervalFinishes
+    schema:name "interval finishes" ;
+.
+
 time:intervalIn
     schema:name "interval in" ;
 .
 
+time:intervalMeets
+    schema:name "interval meets" ;
+.
+
+time:intervalMetBy
+    schema:name "interval met by" ;
+.
+
 time:intervalStartedBy
     schema:name "interval started by" ;
+.
+
+time:intervalStarts
+    schema:name "interval starts" ;
 .
 
 dcat:Relationship
@@ -316,6 +432,14 @@ prof:hasResource
 prof:hasRole
     schema:description "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."@en ;
     schema:name "has role" ;
+.
+
+prov:wasDerivedFrom
+    schema:name "was derived from" ;
+.
+
+sh:order
+    schema:name "order"@en ;
 .
 
 sosa:Sample
@@ -365,6 +489,10 @@ schema:DataCatalog
     schema:name "Data catalog" ;
 .
 
+schema:Dataset
+    schema:name "Dataset" ;
+.
+
 schema:Organization
     schema:description "An organization such as a school, NGO, corporation, club, etc" ;
     schema:name "Organization" ;
@@ -391,6 +519,14 @@ schema:citation
 schema:codeRepository
     schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)" ;
     schema:name "code repository" ;
+.
+
+schema:color
+    schema:name "color" ;
+.
+
+schema:contributor
+    schema:name "contributor" ;
 .
 
 schema:copyrightHolder
@@ -439,7 +575,9 @@ schema:email
 
 schema:hasPart
     schema:description "Indicates a Resource that is part of this item" ;
-    schema:name "has part" ;
+    schema:name
+        "has part" ,
+        "member" ;
 .
 
 schema:identifier
@@ -451,6 +589,14 @@ schema:license
     schema:name "license" ;
 .
 
+schema:marginOfError
+    schema:name "margin of error" ;
+.
+
+schema:memberOf
+    schema:name "member of" ;
+.
+
 schema:name
     schema:description "The name of the item" ;
     schema:name "name" ;
@@ -459,6 +605,10 @@ schema:name
 schema:publisher
     schema:description "The publisher of the creative work" ;
     schema:name "publisher" ;
+.
+
+schema:status
+    schema:name "status" ;
 .
 
 schema:url

@@ -1,6 +1,6 @@
 ![](ics-logo.png)
 
-# ICS Supermodel
+# ICS Supermodel Data
 
 This repository contains the Semantic Web data and some documentation for the ICS' Supermodel.
 

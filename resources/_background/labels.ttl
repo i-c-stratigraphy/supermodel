@@ -1,3 +1,4 @@
+PREFIX gts: <http://resource.geosciml.org/ontology/timescale/gts#>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
@@ -620,3 +621,12 @@ schema:version
     schema:description "The version of the CreativeWork embodied by a specified resource" ;
     schema:name "version" ;
 .
+
+<https://data.stratigraphy.org/def/gssp/correlationEvents>
+    schema:name "correlation event" ;
+.
+
+<https://data.stratigraphy.org/def/gssp/boundaryLevel>
+    schema:name "boundary level" ;
+.
+

@@ -66,6 +66,22 @@ gts:representsBoundary
     rdfs:range gts:GeochronologicBoundary ;
 .
 
+schema:location
+    a owl:DatatypeProperty ;
+    schema:description "The location of the GSSP, in words" ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    schema:name "location" ;
+    rdfs:range xsd:string ;
+.
+
+schema:name
+    a owl:DatatypeProperty ;
+    schema:description "The name of the GSSP" ;
+    rdfs:isDefinedBy <https://schema.org> ;
+    schema:name "name" ;
+    rdfs:range xsd:string ;
+.
+
 schema:status
     a owl:ObjectProperty ;
     schema:description "The status of the thing" ;
@@ -96,6 +112,8 @@ ont:
         gts:boundaryLevel ,
         gts:correlationEvent ,
         gts:representsBoundary ,
+        schema:location ,
+        schema:name ,
         schema:status ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "GSSP Model" ;

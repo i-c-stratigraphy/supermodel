@@ -204,46 +204,55 @@ gtsd:Ages
 .
 
 gtsd:BaseCambrianSeries3
+    schema:name "Base Cambrian Series 3 Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseMiaolingian ;
 .
 
 gtsd:BaseUpperCretaceous
+    schema:name "Base Upper Cretaceous Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLateCretaceous ;
 .
 
 gtsd:BaseUpperDevonian
+    schema:name "Base Upper Devonian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLateDevonian ;
 .
 
 gtsd:BaseUpperJurassic
+    schema:name "Base Upper Jurassic Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLateJurassic ;
 .
 
 gtsd:BaseUpperMississippian
+    schema:name "Base Upper Mississippian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLateMississippian ;
 .
 
 gtsd:BaseUpperOrdovician
+    schema:name "Base Upper Ordovician Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLateOrdovician ;
 .
 
 gtsd:BaseUpperPennsylvanian
+    schema:name "Base Upper Pennsylvanian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLatePennsylvanian ;
 .
 
 gtsd:BaseUpperPleistocene
+    schema:name "Base Upper Pleistocene Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLatePleistocene ;
 .
 
 gtsd:BaseUpperTriassic
+    schema:name "Base Upper Triassic Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:isReplacedBy gtsd:BaseLateTriassic ;
 .
@@ -1125,6 +1134,7 @@ gtsd:Super-Eons
 .
 
 gtsd:BaseChibanian
+    schema:name "Base Chibanian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -1237,95 +1247,118 @@ gtsd:Bartonian
 .
 
 gtsd:BaseAeronian
+    schema:name "Base Aeronian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseAlbian
+    schema:name "Base Albian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseAptian
+    schema:name "Base Aptian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseArtinskian
+    schema:name "Base Artinskian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseBajocian
+    schema:name "Base Bajocian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseBarremian
+    schema:name "Base Barremian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseBartonian
+    schema:name "Base Bartonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseBathonian
+    schema:name "Base Bathonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseBurdigalian
+    schema:name "Base Burdigalian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCalabrian
+    schema:name "Base Calabrian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCallovian
+    schema:name "Base Callovian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCambrianStage10
+    schema:name "Base Cambrian Stage 10 Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCambrianStage2
+    schema:name "Base Cambrian Stage 2 Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCambrianStage4
+    schema:name "Base Cambrian Stage 4 Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCampanian
+    schema:name "Base Campanian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCapitanian
+    schema:name "Base Capitanian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseChanghsingian
+    schema:name "Base Changhsingian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseChattian
+    schema:name "Base Chattian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseConiacian
+    schema:name "Base Coniacian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseCryogenian
+    schema:name "Base Cryogenian Boundary" ;
     a gts:GeochronologicBoundary ;
     gts:ratifiedGSSP false ;
 .
 
 gtsd:BaseDarriwilian
+    schema:name "Base Darriwilian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseDrumian
+    schema:name "Base Drumian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseEctasian
+    schema:name "Base Ectasian Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1333,82 +1366,102 @@ gtsd:BaseEctasian
 .
 
 gtsd:BaseEdiacaran
+    schema:name "Base Ediacaran Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseEmsian
+    schema:name "Base Emsian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseFamennian
+    schema:name "Base Famennian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseFloian
+    schema:name "Base Floian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseGivetian
+    schema:name "Base Givetian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseGuzhangian
+    schema:name "Base Guzhangian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseGzhelian
+    schema:name "Base Gzhelian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseHauterivian
+    schema:name "Base Hauterivian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseHirnantian
+    schema:name "Base Hirnantian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseHomerian
+    schema:name "Base Homerian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseJiangshanian
+    schema:name "Base Jiangshanian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseKatian
+    schema:name "Base Katian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseKimmeridgian
+    schema:name "Base Kimmeridgian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseKungurian
+    schema:name "Base Kungurian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseLadinian
+    schema:name "Base Ladinian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseLanghian
+    schema:name "Base Langhian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseLudfordian
+    schema:name "Base Ludfordian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseLutetian
+    schema:name "Base Lutetian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMaastrichtian
+    schema:name "Base Maastrichtian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMeghalayan
+    schema:name "Base Meghalayan Boundary" ;
     a gts:GeochronologicBoundary ;
     gts:stratotype
         gtsd:BaseMeghalayanAuxSP ,
@@ -1419,6 +1472,7 @@ gtsd:BaseMeghalayan
 .
 
 gtsd:BaseMesoarchean
+    schema:name "Base Mesoarchean Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1426,10 +1480,12 @@ gtsd:BaseMesoarchean
 .
 
 gtsd:BaseMessinian
+    schema:name "Base Messinian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseNeoarchean
+    schema:name "Base Neoarchean Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1437,10 +1493,12 @@ gtsd:BaseNeoarchean
 .
 
 gtsd:BaseNorian
+    schema:name "Base Norian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseNorthgrippian
+    schema:name "Base Northgrippian Boundary" ;
     a gts:GeochronologicBoundary ;
     gts:stratotype
         gtsd:BaseNorthgrippianAuxSP ,
@@ -1451,10 +1509,12 @@ gtsd:BaseNorthgrippian
 .
 
 gtsd:BaseOlenekian
+    schema:name "Base Olenekian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseOrosirian
+    schema:name "Base Orosirian Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1462,6 +1522,7 @@ gtsd:BaseOrosirian
 .
 
 gtsd:BasePaleoarchean
+    schema:name "Base Paleoarchean Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1469,26 +1530,32 @@ gtsd:BasePaleoarchean
 .
 
 gtsd:BasePiacenzian
+    schema:name "Base Piacenzian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BasePliensbachian
+    schema:name "Base Pliensbachian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BasePragian
+    schema:name "Base Pragian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BasePriabonian
+    schema:name "Base Priabonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseRhaetian
+    schema:name "Base Rhaetian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseRhyacian
+    schema:name "Base Rhyacian Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1496,26 +1563,32 @@ gtsd:BaseRhyacian
 .
 
 gtsd:BaseSakmarian
+    schema:name "Base Sakmarian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseSantonian
+    schema:name "Base Santonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseSelandian
+    schema:name "Base Selandian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseSerravallian
+    schema:name "Base Serravallian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseSinemurian
+    schema:name "Base Sinemurian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseStatherian
+    schema:name "Base Statherian Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1523,6 +1596,7 @@ gtsd:BaseStatherian
 .
 
 gtsd:BaseStenian
+    schema:name "Base Stenian Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -1530,34 +1604,42 @@ gtsd:BaseStenian
 .
 
 gtsd:BaseTelychian
+    schema:name "Base Telychian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseThanetian
+    schema:name "Base Thanetian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseTithonian
+    schema:name "Base Tithonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseToarcian
+    schema:name "Base Toarcian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseTortonian
+    schema:name "Base Tortonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseTuronian
+    schema:name "Base Turonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseValanginian
+    schema:name "Base Valanginian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseWordian
+    schema:name "Base Wordian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -1993,6 +2075,7 @@ gtsd:Anisian
 .
 
 gtsd:BaseArchean
+    schema:name "Base Archean Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -2000,6 +2083,7 @@ gtsd:BaseArchean
 .
 
 gtsd:BaseLatePleistocene
+    schema:name "Base Late Pleistocene Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperPleistocene ;
     time:inTemporalPosition
@@ -2008,6 +2092,7 @@ gtsd:BaseLatePleistocene
 .
 
 gtsd:BasePridoli
+    schema:name "Base Pridoli Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -2557,22 +2642,27 @@ gtsd:Aquitanian
 .
 
 gtsd:BaseCambrianSeries2
+    schema:name "Base Cambrian Series 2 Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseEocene
+    schema:name "Base Eocene Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseFurongian
+    schema:name "Base Furongian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseGuadalupian
+    schema:name "Base Guadalupian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseHolocene
+    schema:name "Base Holocene Boundary" ;
     a gts:GeochronologicBoundary ;
     time:inTemporalPosition
         gtsd:BaseHoloceneTime ,
@@ -2580,14 +2670,17 @@ gtsd:BaseHolocene
 .
 
 gtsd:BaseLopingian
+    schema:name "Base Lopingian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseLudlow
+    schema:name "Base Ludlow Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMesoproterozoic
+    schema:name "Base Mesoproterozoic Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -2595,30 +2688,37 @@ gtsd:BaseMesoproterozoic
 .
 
 gtsd:BaseMiddleDevonian
+    schema:name "Base Middle Devonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMiddleJurassic
+    schema:name "Base Middle Jurassic Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMiddleMississippian
+    schema:name "Base Middle Mississippian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMiddleOrdovician
+    schema:name "Base Middle Ordovician Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMiddlePennsylvanian
+    schema:name "Base Middle Pennsylvanian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMiddleTriassic
+    schema:name "Base Middle Triassic Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseNeoproterozoic
+    schema:name "Base Neoproterozoic Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -2626,14 +2726,17 @@ gtsd:BaseNeoproterozoic
 .
 
 gtsd:BaseOligocene
+    schema:name "Base Oligocene Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BasePliocene
+    schema:name "Base Pliocene Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseWenlock
+    schema:name "Base Wenlock Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -2877,50 +2980,60 @@ gtsd:Asselian
 .
 
 gtsd:BaseDevonian
+    schema:name "Base Devonian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseLateCretaceous
+    schema:name "Base Late Cretaceous Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperCretaceous ;
 .
 
 gtsd:BaseLateDevonian
+    schema:name "Base Late Devonian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperDevonian ;
 .
 
 gtsd:BaseLateJurassic
+    schema:name "Base Late Jurassic Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperJurassic ;
 .
 
 gtsd:BaseLateMississippian
+    schema:name "Base Late Mississippian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperMississippian ;
 .
 
 gtsd:BaseLateOrdovician
+    schema:name "Base Late Ordovician Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperOrdovician ;
 .
 
 gtsd:BaseLatePennsylvanian
+    schema:name "Base Late Pennsylvanian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperPennsylvanian ;
 .
 
 gtsd:BaseLateTriassic
+    schema:name "Base Late Triassic Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseUpperTriassic ;
 .
 
 gtsd:BaseMiaolingian
+    schema:name "Base Miaolingian Boundary" ;
     a gts:GeochronologicBoundary ;
     dcterms:replaces gtsd:BaseCambrianSeries3 ;
 .
 
 gtsd:BaseProterozoic
+    schema:name "Base Proterozoic Boundary" ;
     a
         gts:NumericEraBoundary ,
         thors:EraBoundary ;
@@ -3117,30 +3230,37 @@ gtsd:Tournaisian
 .
 
 gtsd:BaseCretaceous
+    schema:name "Base Cretaceous Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseJurassic
+    schema:name "Base Jurassic Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseNeogene
+    schema:name "Base Neogene Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseOrdovician
+    schema:name "Base Ordovician Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BasePennsylvanian
+    schema:name "Base Pennsylvanian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseQuaternary
+    schema:name "Base Quaternary Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseSilurian
+    schema:name "Base Silurian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -3195,10 +3315,12 @@ gtsd:LowerPennsylvanian
 .
 
 gtsd:BaseCarboniferous
+    schema:name "Base Carboniferous Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BasePermian
+    schema:name "Base Permian Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -3250,10 +3372,12 @@ gtsd:UpperMississippian
 .
 
 gtsd:BaseCenozoic
+    schema:name "Base Cenozoic Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
 gtsd:BaseMesozoic
+    schema:name "Base Mesozoic Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 
@@ -3358,6 +3482,7 @@ gtsd:Wenlock
 .
 
 gtsd:BasePhanerozoic
+    schema:name "Base Phanerozoic Boundary" ;
     a gts:GeochronologicBoundary ;
 .
 

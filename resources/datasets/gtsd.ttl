@@ -86,12 +86,10 @@ gtsd:BaseToarcian-location
 
 gtsd:Boundary-unspecified
     skos:definition "Boundaries of intervals in the chronostratigraphic chart (unspecified)"@en ;
-    skos:topConceptOf <http://resource.geosciml.org/vocabulary/timescale/gts2020> ;
 .
 
 gtsd:Stratotype-unspecified
     skos:definition "Stratigraphic points providing stratotypes of boundaries in the chronostratigraphic chart (unspecified)"@en ;
-    skos:topConceptOf <http://resource.geosciml.org/vocabulary/timescale/gts2020> ;
 .
 
 gtsd:Ages
@@ -3543,7 +3541,6 @@ gtsd:Oligocene
 gtsd:Phanerozoic
     a gts:Eon ;
     gts:rank rank:Eon ;
-    skos:topConceptOf <http://resource.geosciml.org/vocabulary/timescale/gts2020> ;
     time:hasBeginning gtsd:BasePhanerozoic ;
     time:hasEnd gtsd:Present ;
     time:intervalContains gtsd:Mesozoic ;
@@ -3723,7 +3720,6 @@ gtsd:Precambrian
     a gts:Super-Eon ;
     gts:rank rank:Super-Eon ;
     gts:status "Informal" ;
-    skos:topConceptOf <http://resource.geosciml.org/vocabulary/timescale/gts2020> ;
     time:hasBeginning gtsd:FormationOfEarth ;
     time:hasEnd gtsd:BasePhanerozoic ;
     time:intervalContains gtsd:Archean ;
